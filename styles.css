@@ -60,10 +60,25 @@ section {
 .status {
     color: var(--very-dark-magenta);
     font-weight: bold;
+    max-width: 350px;
 }
 
-
-
-@media only screen and (max-width: 375px){
-
+.status p{
+    background-color: var(--light-grayish-magenta);
+    margin: 10px;
+    padding: 5px 15px;
+    width: 350px;
+    border-radius: 4px;
 }
+
+p:nth-child(1){
+    position: absolute;
+    top: -30px;
+    left: -30px;;
+}
+p:nth-child(3){
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
